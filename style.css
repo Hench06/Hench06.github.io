@@ -148,6 +148,13 @@ h2::after {
   left: 0;
 }
 
+/* Make the underline span the full width of all headings */
+#github h2::after,
+#blog h2::after,
+#contact h2::after {
+  width: 100%;
+}
+
 p {
   font-size: 18px;
   margin-bottom: 25px;
